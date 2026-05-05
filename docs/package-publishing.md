@@ -34,7 +34,7 @@ packages/boardgame-kit
 패키지 이름:
 
 ```txt
-@boardgame-kit/react
+@vlvethund/boardgame-kit
 ```
 
 실제 npm publish 전에 본인 npm 계정/scope에 맞게 이름을 바꿀 수 있다.
@@ -43,7 +43,7 @@ packages/boardgame-kit
 
 ```json
 {
-  "@boardgame-kit/react": "file:../../packages/boardgame-kit"
+  "@vlvethund/boardgame-kit": "file:../../packages/boardgame-kit"
 }
 ```
 
@@ -73,8 +73,8 @@ Vite 개발 서버에서는 `apps/demo/vite.config.ts`의 alias로 `packages/boa
 사용 예시:
 
 ```tsx
-import { Board, Deck, Hand, Zone } from '@boardgame-kit/react';
-import '@boardgame-kit/react/styles.css';
+import { Board, Deck, Hand, Zone } from '@vlvethund/boardgame-kit';
+import '@vlvethund/boardgame-kit/styles.css';
 ```
 
 ## 빌드 명령
@@ -106,13 +106,13 @@ npm run pack:kit
 현재 생성되는 파일:
 
 ```txt
-boardgame-kit-react-0.1.0.tgz
+vlvethund-boardgame-kit-0.1.0.tgz
 ```
 
 다른 프로젝트에서 테스트 설치:
 
 ```sh
-npm install /absolute/path/to/boardgame-kit-react-0.1.0.tgz
+npm install /absolute/path/to/vlvethund-boardgame-kit-0.1.0.tgz
 ```
 
 ## npm publish 전 체크리스트

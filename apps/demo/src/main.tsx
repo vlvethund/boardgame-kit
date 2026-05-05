@@ -29,8 +29,8 @@ import {
   type GameCardData,
   type GamePiece,
   type GameTokenData,
-} from '@boardgame-kit/react';
-import '@boardgame-kit/react/styles.css';
+} from '@vlvethund/boardgame-kit';
+import '@vlvethund/boardgame-kit/styles.css';
 import './styles.css';
 
 type Zones = Record<'deck' | 'hand' | 'board' | 'market' | 'discard', GameCardData[]>;

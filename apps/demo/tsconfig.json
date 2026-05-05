@@ -19,8 +19,8 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@boardgame-kit/react": ["../../packages/boardgame-kit/src"],
-      "@boardgame-kit/react/styles.css": ["../../packages/boardgame-kit/src/styles.css"]
+      "@vlvethund/boardgame-kit": ["../../packages/boardgame-kit/src"],
+      "@vlvethund/boardgame-kit/styles.css": ["../../packages/boardgame-kit/src/styles.css"]
     }
   },
   "include": ["src", "../../packages/boardgame-kit/src"]

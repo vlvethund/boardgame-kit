@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@boardgame-kit/react': resolve(__dirname, '../../packages/boardgame-kit/src'),
+      '@vlvethund/boardgame-kit': resolve(__dirname, '../../packages/boardgame-kit/src'),
     },
   },
 });

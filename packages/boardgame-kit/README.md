@@ -1,11 +1,11 @@
-# @boardgame-kit/react
+# @vlvethund/boardgame-kit
 
 Composable React primitives for building custom card and board game interfaces.
 
 ## Install
 
 ```sh
-npm install @boardgame-kit/react
+npm install @vlvethund/boardgame-kit
 ```
 
 The package name is prepared for npm publishing. Change the scope/name in `package.json` before publishing if you want to use a different npm account or organization.
@@ -13,8 +13,8 @@ The package name is prepared for npm publishing. Change the scope/name in `packa
 ## Usage
 
 ```tsx
-import { Board, Deck, Hand, Zone } from '@boardgame-kit/react';
-import '@boardgame-kit/react/styles.css';
+import { Board, Deck, Hand, Zone } from '@vlvethund/boardgame-kit';
+import '@vlvethund/boardgame-kit/styles.css';
 ```
 
 The package exports card, token, dice, zone, board, drag layer, controller, and generic game kit primitives.

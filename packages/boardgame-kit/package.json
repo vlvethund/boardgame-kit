@@ -1,5 +1,5 @@
 {
-  "name": "@boardgame-kit/react",
+  "name": "@vlvethund/boardgame-kit",
   "version": "0.1.0",
   "description": "Composable React primitives for card, board, token, dice, and custom tabletop game interfaces.",
   "type": "module",

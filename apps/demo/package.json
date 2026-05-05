@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@boardgame-kit/react": "file:../../packages/boardgame-kit",
+    "@vlvethund/boardgame-kit": "file:../../packages/boardgame-kit",
     "lucide-react": "^0.507.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
