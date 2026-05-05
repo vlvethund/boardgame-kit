@@ -1,0 +1,17 @@
+{
+  "name": "@boardgame-kit/demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@boardgame-kit/react": "file:../../packages/boardgame-kit",
+    "lucide-react": "^0.507.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

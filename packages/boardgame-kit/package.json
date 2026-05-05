@@ -1,0 +1,42 @@
+{
+  "name": "@boardgame-kit/react",
+  "version": "0.1.0",
+  "description": "Composable React primitives for card, board, token, dice, and custom tabletop game interfaces.",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": [
+    "*.css",
+    "**/*.css"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vite build && tsc -b tsconfig.json --force && cp src/styles.css dist/styles.css",
+    "typecheck": "tsc -p tsconfig.json --noEmit false",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0 || >=19.0.0",
+    "react-dom": ">=18.2.0 || >=19.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.507.0"
+  }
+}

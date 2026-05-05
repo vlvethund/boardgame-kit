@@ -1,0 +1,25 @@
+{
+  "name": "boardgame-kit-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @boardgame-kit/demo -- --host 0.0.0.0 --port 5174",
+    "build": "npm run build -w @boardgame-kit/react && npm run build -w @boardgame-kit/demo",
+    "build:kit": "npm run build -w @boardgame-kit/react",
+    "build:demo": "npm run build -w @boardgame-kit/demo",
+    "preview": "npm run preview -w @boardgame-kit/demo -- --host 0.0.0.0 --port 5174",
+    "pack:kit": "npm pack -w @boardgame-kit/react"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.4"
+  }
+}
